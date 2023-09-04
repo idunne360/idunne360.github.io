@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+* {
+    font-family: 'Teko', sans-serif;
+}
+
+header {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(45, 161, 193);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p, li, a {
+    font-family: 'Josefin Sans', sans-serif;
+}

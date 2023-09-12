@@ -25,6 +25,13 @@ img#teampix {
     padding-left: 50px;
 }
 
+img#ian {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 h2 {
     font-size: 40px;
     padding-left: 20px;
@@ -54,6 +61,12 @@ p {
     padding-left: 80px;
     padding-right: 200px;
     text-indent: 50px;
+}
+
+p.about {
+    text-align: center;
+    padding: 0px;
+    text-indent: 0px;
 }
 
 table, th, td {

@@ -1,20 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
 * {
-    font-family: 'Teko', sans-serif;
+    font-family: Teko, sans-serif;
+    background-color: antiquewhite;
 }
 
 header {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
-    color: rgb(45, 161, 193);
+    color: rgb(45 161 193);
+    text-align: center;
+}
+
+img#tree {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
+img#teampix {
+    padding-left: 50px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.other {
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Changa, sans-serif;
+}
+
+h2.other {
+    font-size: 25px;
+}
+
+li {
+    margin: 5px;
 }
 
 p, li, a {
-    font-family: 'Josefin Sans', sans-serif;
+    /* stylelint-disable-next-line font-family-name-quotes */
+    font-family: Josefin Sans, sans-serif;
+}
+
+p {
+    padding-left: 80px;
+    padding-right: 200px;
+    text-indent: 50px;
+}
+
+table, th, td {
+    border: 1px solid;
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Changa, sans-serif;
+}
+
+table {
+    width: 50%;
+    margin-left: 250px;
+}
+
+th, td {
+    text-align: center;
+}
+
+td:hover, th:hover {
+    background-color: burlywood;
+}
+
+div#other {
+    text-align: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav li {
+    margin: 0;
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    background-color: rgb(128 128 128);
+}
+
+nav li#about {
+    float: right;
+}
+
+li a:hover {
+    background-color: rgb(110 110 110);
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 14px;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    border-top: 1px solid rgb(118 118 118);
 }
